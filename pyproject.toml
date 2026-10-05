@@ -1,0 +1,19 @@
+[project]
+name = "18bi-2026"
+version = "2026.1"
+description = "18BI - Business Intelligence, FNSPE CTU in Prague, 2026"
+requires-python = ">=3.10"
+dependencies = [
+    "duckdb>=1.1",
+    "dbt-core>=1.8",
+    "dbt-duckdb>=1.8",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "jupyterlab>=4.0",
+    "streamlit>=1.35",
+]
+
+[tool.uv]
+# This repository is course material, not a distributable package -- there is
+# nothing to build or install, only dependencies to resolve.
+package = false

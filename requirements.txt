@@ -1,0 +1,9 @@
+# Fallback for students without uv:  python -m venv .venv && .venv/bin/pip install -r requirements.txt
+# The canonical dependency list lives in pyproject.toml.
+duckdb>=1.1
+dbt-core>=1.8
+dbt-duckdb>=1.8
+pandas>=2.0
+matplotlib>=3.8
+jupyterlab>=4.0
+streamlit>=1.35
