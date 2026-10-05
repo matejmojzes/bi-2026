@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="30" y="34" font-size="17" font-weight="700" fill="#14213d">The same seven order lines, modelled as a star</text>
+  <text x="30" y="55" font-size="12.5" fill="#5b6478">One fact table in the middle. Everything you might group by hangs off it.</text>
+
+  <!-- fact -->
+  <rect x="330" y="170" width="235" height="150" rx="9" fill="#fdf1e3" stroke="#d9a961" stroke-width="1.6"/>
+  <rect x="330" y="170" width="235" height="28" rx="9" fill="#d9a961"/>
+  <rect x="330" y="189" width="235" height="9" fill="#d9a961"/>
+  <text x="447" y="189" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">fct_order_lines</text>
+  <text x="345" y="216" font-size="11" fill="#7a6234" font-style="italic">grain: one row per order line</text>
+  <line x1="345" y1="224" x2="550" y2="224" stroke="#e5cba0"/>
+  <text x="345" y="242" font-size="11.5" fill="#33405c">date_key &#8594;</text>
+  <text x="345" y="260" font-size="11.5" fill="#33405c">customer_key &#8594;</text>
+  <text x="345" y="278" font-size="11.5" fill="#33405c">product_key &#8594;</text>
+  <line x1="345" y1="288" x2="550" y2="288" stroke="#e5cba0"/>
+  <text x="345" y="305" font-size="11.5" font-weight="600" fill="#14213d">quantity · price · discount</text>
+
+  <!-- dims -->
+  <g>
+    <rect x="60" y="95" width="190" height="96" rx="9" fill="#eef2f9" stroke="#8fa6c9" stroke-width="1.4"/>
+    <rect x="60" y="95" width="190" height="26" rx="9" fill="#8fa6c9"/>
+    <rect x="60" y="112" width="190" height="9" fill="#8fa6c9"/>
+    <text x="155" y="113" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">dim_date</text>
+    <text x="74" y="139" font-size="11.5" fill="#33405c">date_day, month, quarter</text>
+    <text x="74" y="157" font-size="11.5" fill="#33405c">week, day name</text>
+    <text x="74" y="177" font-size="11" fill="#7c879b" font-style="italic">"compare to last month"</text>
+  </g>
+  <g>
+    <rect x="650" y="95" width="200" height="96" rx="9" fill="#eef2f9" stroke="#8fa6c9" stroke-width="1.4"/>
+    <rect x="650" y="95" width="200" height="26" rx="9" fill="#8fa6c9"/>
+    <rect x="650" y="112" width="200" height="9" fill="#8fa6c9"/>
+    <text x="750" y="113" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">dim_customer</text>
+    <text x="664" y="139" font-size="11.5" fill="#33405c">name, country, segment</text>
+    <text x="664" y="157" font-size="11.5" fill="#33405c">signup date</text>
+    <text x="664" y="177" font-size="11" fill="#7c879b" font-style="italic">"revenue by segment"</text>
+  </g>
+  <g>
+    <rect x="60" y="310" width="190" height="96" rx="9" fill="#eef2f9" stroke="#8fa6c9" stroke-width="1.4"/>
+    <rect x="60" y="310" width="190" height="26" rx="9" fill="#8fa6c9"/>
+    <rect x="60" y="327" width="190" height="9" fill="#8fa6c9"/>
+    <text x="155" y="328" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">dim_product</text>
+    <text x="74" y="354" font-size="11.5" fill="#33405c">name, category</text>
+    <text x="74" y="372" font-size="11.5" fill="#33405c">list price, supplier</text>
+    <text x="74" y="392" font-size="11" fill="#7c879b" font-style="italic">"which categories sell"</text>
+  </g>
+  <g>
+    <rect x="650" y="310" width="200" height="96" rx="9" fill="#f4f5f7" stroke="#b9c0cc" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <rect x="650" y="310" width="200" height="26" rx="9" fill="#b9c0cc"/>
+    <rect x="650" y="327" width="200" height="9" fill="#b9c0cc"/>
+    <text x="750" y="328" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">degenerate: status, channel</text>
+    <text x="664" y="356" font-size="11.5" fill="#33405c">completed / cancelled</text>
+    <text x="664" y="374" font-size="11.5" fill="#33405c">web / app / store</text>
+    <text x="664" y="394" font-size="11" fill="#7c879b" font-style="italic">too small for a table of its own</text>
+  </g>
+
+  <g stroke="#9aa8bf" stroke-width="1.6">
+    <line x1="250" y1="160" x2="330" y2="215"/>
+    <line x1="650" y1="160" x2="565" y2="215"/>
+    <line x1="250" y1="345" x2="330" y2="288"/>
+    <line x1="650" y1="345" x2="565" y2="288" stroke-dasharray="5 3"/>
+  </g>
+
+  <rect x="60" y="428" width="790" height="28" rx="7" fill="#f7f8fa" stroke="#dfe4ec"/>
+  <text x="76" y="447" font-size="11.5" fill="#43506b">Measures live in the fact table. Everything you would put after "by" — by month, by segment, by category — is a dimension.</text>
+</svg>
