@@ -1,0 +1,2 @@
+refund_id,order_id,refund_date,refund_amount_net,reason
+R-1,O-4,2025-04-01,2000,damaged

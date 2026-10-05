@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 660" width="1240" height="660" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1240" height="660" fill="#ffffff"/>
+
+  <text x="40" y="44" font-size="23" font-weight="700" fill="#14213d">18BI — one architecture, thirteen weeks</text>
+  <text x="40" y="68" font-size="14" fill="#5b6478">Every week zooms into one box of this picture. Week 1 is the whole picture, built small.</text>
+
+  <!-- ============ SOURCES ============ -->
+  <rect x="40" y="110" width="170" height="250" rx="10" fill="#eef2f9" stroke="#b7c3d9"/>
+  <text x="125" y="136" font-size="14" font-weight="700" fill="#14213d" text-anchor="middle">Source systems</text>
+  <rect x="60" y="152" width="130" height="36" rx="6" fill="#ffffff" stroke="#c9d3e5"/>
+  <text x="125" y="175" font-size="12.5" fill="#33405c" text-anchor="middle">E-shop (OLTP)</text>
+  <rect x="60" y="196" width="130" height="36" rx="6" fill="#ffffff" stroke="#c9d3e5"/>
+  <text x="125" y="219" font-size="12.5" fill="#33405c" text-anchor="middle">CRM</text>
+  <rect x="60" y="240" width="130" height="36" rx="6" fill="#ffffff" stroke="#c9d3e5"/>
+  <text x="125" y="263" font-size="12.5" fill="#33405c" text-anchor="middle">Catalogue, APIs</text>
+  <rect x="60" y="284" width="130" height="36" rx="6" fill="#ffffff" stroke="#c9d3e5"/>
+  <text x="125" y="307" font-size="12.5" fill="#33405c" text-anchor="middle">External / open data</text>
+  <rect x="60" y="328" width="130" height="20" rx="5" fill="#14213d"/>
+  <text x="125" y="342" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">WEEK 2</text>
+
+  <!-- ============ INTEGRATION ============ -->
+  <rect x="245" y="110" width="150" height="250" rx="10" fill="#e8f1ec" stroke="#a9c9b8"/>
+  <text x="320" y="136" font-size="14" font-weight="700" fill="#14213d" text-anchor="middle">Integration</text>
+  <text x="320" y="156" font-size="12" fill="#5b6478" text-anchor="middle">ETL / ELT</text>
+  <rect x="263" y="172" width="114" height="32" rx="6" fill="#ffffff" stroke="#bcd6c8"/>
+  <text x="320" y="192" font-size="12" fill="#33405c" text-anchor="middle">extract</text>
+  <rect x="263" y="210" width="114" height="32" rx="6" fill="#ffffff" stroke="#bcd6c8"/>
+  <text x="320" y="230" font-size="12" fill="#33405c" text-anchor="middle">clean &amp; conform</text>
+  <rect x="263" y="248" width="114" height="32" rx="6" fill="#ffffff" stroke="#bcd6c8"/>
+  <text x="320" y="268" font-size="12" fill="#33405c" text-anchor="middle">enrich</text>
+  <rect x="263" y="286" width="114" height="32" rx="6" fill="#ffffff" stroke="#bcd6c8"/>
+  <text x="320" y="306" font-size="12" fill="#33405c" text-anchor="middle">batch vs stream</text>
+  <rect x="263" y="328" width="114" height="20" rx="5" fill="#14213d"/>
+  <text x="320" y="342" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">WEEK 3</text>
+
+  <!-- ============ WAREHOUSE ============ -->
+  <rect x="430" y="110" width="180" height="250" rx="10" fill="#fdf1e3" stroke="#e5c69b"/>
+  <text x="520" y="136" font-size="14" font-weight="700" fill="#14213d" text-anchor="middle">Data warehouse</text>
+  <text x="520" y="156" font-size="12" fill="#5b6478" text-anchor="middle">facts · dimensions · grain</text>
+  <rect x="450" y="172" width="140" height="34" rx="6" fill="#ffffff" stroke="#e8d1ae"/>
+  <text x="520" y="193" font-size="12" fill="#33405c" text-anchor="middle">fct_order_lines</text>
+  <rect x="450" y="212" width="66" height="34" rx="6" fill="#ffffff" stroke="#e8d1ae"/>
+  <text x="483" y="233" font-size="11.5" fill="#33405c" text-anchor="middle">dim_date</text>
+  <rect x="524" y="212" width="66" height="34" rx="6" fill="#ffffff" stroke="#e8d1ae"/>
+  <text x="557" y="233" font-size="11.5" fill="#33405c" text-anchor="middle">dim_cust</text>
+  <rect x="450" y="252" width="140" height="34" rx="6" fill="#ffffff" stroke="#e8d1ae"/>
+  <text x="520" y="273" font-size="11.5" fill="#33405c" text-anchor="middle">surrogate keys · SCD2</text>
+  <rect x="450" y="328" width="140" height="20" rx="5" fill="#14213d"/>
+  <text x="520" y="342" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">WEEKS 2 &amp; 4</text>
+
+  <!-- ============ SEMANTIC LAYER ============ -->
+  <rect x="645" y="110" width="150" height="250" rx="10" fill="#efe7f7" stroke="#c6b2dd"/>
+  <text x="720" y="136" font-size="14" font-weight="700" fill="#14213d" text-anchor="middle">Semantic layer</text>
+  <text x="720" y="156" font-size="12" fill="#5b6478" text-anchor="middle">+ data marts</text>
+  <rect x="663" y="172" width="114" height="34" rx="6" fill="#ffffff" stroke="#d3c3e5"/>
+  <text x="720" y="193" font-size="11.5" fill="#33405c" text-anchor="middle">metric definitions</text>
+  <rect x="663" y="212" width="114" height="34" rx="6" fill="#ffffff" stroke="#d3c3e5"/>
+  <text x="720" y="233" font-size="11.5" fill="#33405c" text-anchor="middle">KPI · consistency</text>
+  <rect x="663" y="252" width="114" height="34" rx="6" fill="#ffffff" stroke="#d3c3e5"/>
+  <text x="720" y="273" font-size="11.5" fill="#33405c" text-anchor="middle">domain marts</text>
+  <rect x="663" y="328" width="114" height="20" rx="5" fill="#14213d"/>
+  <text x="720" y="342" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">WEEKS 5 &amp; 11</text>
+
+  <!-- ============ CONSUMPTION ============ -->
+  <rect x="830" y="110" width="200" height="250" rx="10" fill="#e6f0f7" stroke="#a9c6dd"/>
+  <text x="930" y="136" font-size="14" font-weight="700" fill="#14213d" text-anchor="middle">Consumption</text>
+  <rect x="848" y="150" width="164" height="32" rx="6" fill="#ffffff" stroke="#bdd4e7"/>
+  <text x="930" y="170" font-size="11.5" fill="#33405c" text-anchor="middle">reporting &amp; dashboards · wk 6</text>
+  <rect x="848" y="188" width="164" height="32" rx="6" fill="#ffffff" stroke="#bdd4e7"/>
+  <text x="930" y="208" font-size="11.5" fill="#33405c" text-anchor="middle">storytelling · NLG · wk 7</text>
+  <rect x="848" y="226" width="164" height="32" rx="6" fill="#ffffff" stroke="#bdd4e7"/>
+  <text x="930" y="246" font-size="11.5" fill="#33405c" text-anchor="middle">OLAP, drill-down · wk 7</text>
+  <rect x="848" y="264" width="164" height="32" rx="6" fill="#ffffff" stroke="#bdd4e7"/>
+  <text x="930" y="284" font-size="11.5" fill="#33405c" text-anchor="middle">data mining · wk 8</text>
+  <rect x="848" y="302" width="164" height="32" rx="6" fill="#fff6d9" stroke="#e0c96a"/>
+  <text x="930" y="322" font-size="11.5" font-weight="600" fill="#33405c" text-anchor="middle">AI-augmented · wks 9–10</text>
+
+  <!-- ============ DECISIONS ============ -->
+  <rect x="1065" y="110" width="135" height="250" rx="10" fill="#14213d"/>
+  <text x="1132" y="140" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Decisions</text>
+  <text x="1132" y="180" font-size="12" fill="#c8d2e4" text-anchor="middle">operational</text>
+  <text x="1132" y="200" font-size="11" fill="#8c9ab5" text-anchor="middle">minutes</text>
+  <text x="1132" y="232" font-size="12" fill="#c8d2e4" text-anchor="middle">managerial</text>
+  <text x="1132" y="252" font-size="11" fill="#8c9ab5" text-anchor="middle">weeks</text>
+  <text x="1132" y="284" font-size="12" fill="#c8d2e4" text-anchor="middle">strategic</text>
+  <text x="1132" y="304" font-size="11" fill="#8c9ab5" text-anchor="middle">years</text>
+  <rect x="1083" y="328" width="99" height="20" rx="5" fill="#ffffff"/>
+  <text x="1132" y="342" font-size="11" font-weight="700" fill="#14213d" text-anchor="middle">WEEK 11</text>
+
+  <!-- ============ ARROWS ============ -->
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 z" fill="#8494ad"/>
+    </marker>
+  </defs>
+  <line x1="212" y1="235" x2="240" y2="235" stroke="#8494ad" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="397" y1="235" x2="425" y2="235" stroke="#8494ad" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="612" y1="235" x2="640" y2="235" stroke="#8494ad" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="797" y1="235" x2="825" y2="235" stroke="#8494ad" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="1032" y1="235" x2="1060" y2="235" stroke="#8494ad" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- ============ GOVERNANCE BAND ============ -->
+  <rect x="40" y="395" width="1160" height="72" rx="10" fill="#f6eaea" stroke="#ddb3b3"/>
+  <text x="66" y="424" font-size="14" font-weight="700" fill="#14213d">Metadata, lineage, governance and data quality — underneath all of it</text>
+  <text x="66" y="447" font-size="12.5" fill="#5b6478">catalogue · lineage · transparency of AI insights · ethics · quality dimensions, monitoring and improvement</text>
+  <rect x="1050" y="415" width="128" height="22" rx="5" fill="#14213d"/>
+  <text x="1114" y="430" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">WEEKS 12 &amp; 13</text>
+
+  <!-- ============ FOOTER ============ -->
+  <rect x="40" y="495" width="565" height="115" rx="10" fill="#f7f8fa" stroke="#d8dde6"/>
+  <text x="66" y="522" font-size="13.5" font-weight="700" fill="#14213d">Week 1 — today</text>
+  <text x="66" y="545" font-size="12.5" fill="#43506b">We build every box above, small but real and end to end:</text>
+  <text x="66" y="566" font-size="12.5" fill="#43506b">4 CSV files → staging → star schema → one metric → charts → an answer.</text>
+  <text x="66" y="590" font-size="12.5" fill="#43506b">Then we spend twelve weeks earning the right to trust it.</text>
+
+  <rect x="635" y="495" width="565" height="115" rx="10" fill="#f7f8fa" stroke="#d8dde6"/>
+  <text x="661" y="522" font-size="13.5" font-weight="700" fill="#14213d">The tools</text>
+  <text x="661" y="545" font-size="12.5" fill="#43506b">DuckDB — the analytical database, one file, no server.</text>
+  <text x="661" y="566" font-size="12.5" fill="#43506b">dbt — transformations, lineage, documentation and data tests.</text>
+  <text x="661" y="590" font-size="12.5" fill="#43506b">Python + SQL — and an LLM, used deliberately rather than hopefully.</text>
+</svg>
