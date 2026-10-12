@@ -1,3 +1,18 @@
+# Moved to → [gitlab.fjfi.cvut.cz/ksi/business-intelligence-2026](https://gitlab.fjfi.cvut.cz/ksi/business-intelligence-2026)
+
+> **This repository is no longer updated.** The course continues on the faculty GitLab:
+> **https://gitlab.fjfi.cvut.cz/ksi/business-intelligence-2026**
+>
+> Already cloned this one? Switch over — this keeps any changes you have made to your files:
+>
+> ```bash
+> git remote set-url origin https://gitlab.fjfi.cvut.cz/ksi/business-intelligence-2026.git
+> git fetch origin
+> git reset --keep origin/main
+> ```
+
+---
+
 # 18BI — Business Intelligence
 
 FNSPE CTU in Prague · 2026 · Matej Mojzeš
